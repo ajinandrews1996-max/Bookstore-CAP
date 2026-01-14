@@ -21,4 +21,5 @@ entity Chapters : cuid, managed {
     book   : Association to Books;
     title  : String;
     number : Integer;
+    status : String;
 }
